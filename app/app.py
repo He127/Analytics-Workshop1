@@ -27,7 +27,7 @@ def get_db_connection():
                 )
 
     conn.commit()
-
+ #comment
     cur.close()
     return conn
 
